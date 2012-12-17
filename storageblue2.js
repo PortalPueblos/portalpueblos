@@ -15,7 +15,7 @@ numposts3 = 5;
 numposts4 = 5;
 numposts5 = 10;
 numposts6 = 5;
-numposts7 = 4;
+numposts7 = 6; //4
 
 function removeHtmlTag(strx,chop){
 var s = strx.split("<");
