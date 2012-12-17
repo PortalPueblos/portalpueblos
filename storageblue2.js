@@ -1,6 +1,6 @@
 //<![CDATA[
 imgr = new Array();
-imgr[0] = "http://2.bp.blogspot.com/-uitX7ROPtTU/Tyv-G4NA_uI/AAAAAAAAFBY/NcWLPVnYEnU/s1600/no+image.jpg";
+imgr[0] = "http://portaldelospueblos.com.ar/portal/imagenes/no-image.png";
 showRandomImg = true;
 
 aBold = true;
@@ -143,7 +143,7 @@ function showrecentposts2(json) {
 	var daystr = day+ ' ' + m + ' ' + y ;
 
  if (i==0) {
-	var trtd = '<div class="boxcontent"><div class="thumb"><h2><a href="'+posturl+'">'+posttitle+'</a></h2><a href="'+posturl+'"><img width="221" height="120" src="'+img[i]+'"/></a></div><h5>'+daystr+'</h5><div class="more">More  </div><ul>';
+	var trtd = '<div class="boxcontent"><div class="thumb"><h2><a href="'+posturl+'">'+posttitle+'</a></h2><a href="'+posturl+'"><img width="221" height="120" src="'+img[i]+'"/></a></div><h5>'+daystr+'</h5><div class="more">M&aacute;s noticias  </div><ul>';
 	document.write(trtd);
 }
  if ((i>0)&&(i<numposts2))
@@ -357,7 +357,7 @@ function showrecentposts5(json) {
     pcm='<a href="'+posturl+'">'+pcm+' comments</a>';
 	
  if (i==0) {
-	var trtd = '<li class="first"><div class="entry-thumb"><a href="'+posturl+'"><img width="110" height="80" src="'+img[i]+'"/> </a></div><h2 class="entry-title"><a href="'+posturl+'">'+posttitle+'</a></h2><div class="entry-meta"><span class="meta-date">'+daystr+'</span></div><div class="entry-excerpt"><p>'+removeHtmlTag(postcontent,summaryPost)+'...    <a href="'+posturl+'" class="meta-more">Read more <span class="meta-nav"></span></a></p></div></li>';
+	var trtd = '<li class="first"><div class="entry-thumb"><a href="'+posturl+'"><img width="110" height="80" src="'+img[i]+'"/> </a></div><h2 class="entry-title"><a href="'+posturl+'">'+posttitle+'</a></h2><div class="entry-meta"><span class="meta-date">'+daystr+'</span></div><div class="entry-excerpt"><p>'+removeHtmlTag(postcontent,summaryPost)+'...    <a href="'+posturl+'" class="meta-more">Seguir leyendo <span class="meta-nav"></span></a></p></div></li>';
 	document.write(trtd);
 }
  if ((i>0)&&(i<maxpost))
@@ -502,7 +502,7 @@ function showrecentposts7(json) {
     pcm='<a href="'+posturl+'">'+pcm+' comments</a>';
 	
  if (i==0) {
-	var trtd = '<div class="bottomBox_wide left"><div class="thumb"><a href="'+posturl+'"><img width="190" height="140" src="'+img[i]+'"/></a></div><div class="featuredPost lastPost"><h2 class="postTitle"><a href="'+posturl+'">'+posttitle+'</a></h2>	<p>'+removeHtmlTag(postcontent,summaryPost1)+'... <a href="'+posturl+'">Read More »</a></p><div class="clear"></div></div></div><ul><div class="bottomBox_narrow right">';					 
+	var trtd = '<div class="bottomBox_wide left"><div class="thumb"><a href="'+posturl+'"><img width="190" height="140" src="'+img[i]+'"/></a></div><div class="featuredPost lastPost"><h2 class="postTitle"><a href="'+posturl+'">'+posttitle+'</a></h2>	<p>'+removeHtmlTag(postcontent,summaryPost1)+'... <a href="'+posturl+'"><strong>Seguir leyendo </strong></a></p><div class="clear"></div></div></div><ul><div class="bottomBox_narrow right">';					 
 		document.write(trtd);
 	          }
 	if ((i>0)&&(i<maxpost)) {
