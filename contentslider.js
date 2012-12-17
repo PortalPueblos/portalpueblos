@@ -79,7 +79,7 @@ buildpaginate:function(setting){
 	var nextprev=setting.nextprev
 	if (typeof toc=="string" && toc!="markup" || typeof toc=="object"){
 		for (var i=1; i<=setting.contentdivs.length; i++){
-			phtml+='<a href="#'+i+'" class="toc">'+(typeof toc=="string"? toc.replace(/#increment/, i) : toc[i-1])+'</a> '
+			phtml+='-<a href="#'+i+'" class="toc">'+(typeof toc=="string"? toc.replace(/#increment/, i) : toc[i-1])+'</a> '
 		}
 		phtml=(nextprev[0]!=''? '<a href="#prev" class="prev">'+nextprev[0]+'</a> ' : '') + phtml + (nextprev[1]!=''? '<a href="#next" class="next">'+nextprev[1]+'</a>' : '')
 		pdiv.innerHTML=phtml
