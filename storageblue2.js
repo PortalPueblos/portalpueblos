@@ -5,14 +5,14 @@ showRandomImg = true;
 
 aBold = true;
 
-summaryPost = 100; //100 sacar completo - texto destacadas
-summaryPost1 = 180; //140 en horizontales
+summaryPost = 100; //100 sacar completo texto destacadas
+summaryPost1 = 140; // horizontales
 summaryTitle = 25;
 
 numposts1 = 15;
 numposts2 = 6; // verticales superiores
 numposts3 = 6; // destacadas
-numposts4 = 5; //5 
+numposts4 = 5;  
 numposts5 = 15; // lo +nuevo
 numposts6 = 6; // horizontales
 numposts7 = 4;
@@ -216,7 +216,7 @@ function showrecentposts3(json) {
 
 	var daystr = day+ ' ' + m + ' ' + y ;
 
-	var trtd = '<div class="contentdiv"><a href="'+posturl+'"><img width="407" height="240" class="alignnone" src="'+img[i]+'"/></a><div class="sliderPostInfo"><h2 class="featuredTitle"><a href="'+posturl+'">'+posttitle+'</a></h2><p>'+removeHtmlTag(postcontent,summaryPost)+'...</p></div></div>';
+	var trtd = '<div class="contentdiv"><a href="'+posturl+'"><img width="407" height="240" class="alignnone" src="'+img[i]+'"/></a><div class="sliderPostInfo"><h2 class="featuredTitle"><a href="'+posturl+'">'+posttitle+'</a></h2><p>'+removeHtmlTag(postcontent,summaryPostsacar)+'...</p></div></div>';
 	document.write(trtd);
 
 
