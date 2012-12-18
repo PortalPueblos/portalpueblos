@@ -220,7 +220,7 @@ function showrecentposts3(json) {
 //	var trtd = '<div class="contentdiv"><a href="'+posturl+'"><img width="407" height="240" class="alignnone" src="'+img[i]+'"/></a><div class="sliderPostInfo"><h2 class="featuredTitle"><a href="'+posturl+'">'+posttitle+'</a></h2><p>'+removeHtmlTag(postcontent,summaryPost)+'...</p></div></div>'; 
 
 // cambiado
-	var trtd = '<div class="contentdiv"><a href="'+posturl+'"><img width="407" height="240" class="alignnone" src="'+img[i]+'"/></a><div class="sliderPostInfo"><h2><a href="'+posturl+'">'+posttitle+'</a></h2></div></div>'; 
+	var trtd = '<div class="contentdiv"><a href="'+posturl+'"><img width="407" height="240" class="alignnone" src="'+img[i]+'"/></a><div class="sliderPostInfo"><h3 class='post-title entry-title'><a href="'+posturl+'">'+posttitle+'</a></h3></div></div>'; 
 
 
 
