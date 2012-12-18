@@ -5,17 +5,17 @@ showRandomImg = true;
 
 aBold = true;
 
-summaryPost = 200; //100
-summaryPost1 = 140;
+summaryPost = 0; //100
+summaryPost1 = 200; //140
 summaryTitle = 25;
 
 numposts1 = 15;
 numposts2 = 6; // verticales superiores
-numposts3 = 5;
-numposts4 = 5;
-numposts5 = 15; //10 parece ser titulares
-numposts6 = 6; // 5 
-numposts7 = 6; //
+numposts3 = 2; // destacadas? 
+numposts4 = 5; 
+numposts5 = 15; // lo +nuevo
+numposts6 = 6; // horizontales
+numposts7 = 6;
 
 function removeHtmlTag(strx,chop){
 var s = strx.split("<");
