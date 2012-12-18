@@ -10,7 +10,7 @@ summaryPost1 = 140;
 summaryTitle = 25;
 
 numposts1 = 15;
-numposts2 = 4;
+numposts2 = 6; //4
 numposts3 = 5;
 numposts4 = 5;
 numposts5 = 10;
