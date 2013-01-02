@@ -11,7 +11,7 @@ summaryTitle = 25;
 
 numposts1 = 15;
 numposts2 = 6; // verticales superiores
-numposts3 = 6; // destacadas
+numposts3 = 10; // destacadas
 numposts4 = 5;  
 numposts5 = 15; // lo +nuevo
 numposts6 = 6; // horizontales
